@@ -5,7 +5,7 @@ const {Server} = require('socket.io')
 const server = http.createServer()
 
 const io = new Server(server,{
-    cors : "http://localhost:3000"
+    cors : "https://merry-axolotl-091b76.netlify.app"
 })
 
 let users = []
